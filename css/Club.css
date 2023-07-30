@@ -1,0 +1,42 @@
+/* all hr */
+hr{
+    height:20px;
+    width:70%;
+    background-color: rgb(4, 132, 171);
+    border: 0;
+}
+
+img{
+    width:auto;
+    height:200px;
+    border:1px solid rgb(210, 210, 210);
+}
+
+span.special{
+    color:#34bfff;
+    font-size:30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* table css */
+table{
+    background-color: black;
+    border-collapse:collapse;
+    width:70%;
+    margin: auto;
+}
+
+caption{
+    text-decoration:underline;
+    margin-bottom:5px;
+    font-weight:bold;
+    padding:10px;
+}
+
+td{
+    text-align:center;
+    padding:30px;
+}
+p{
+    padding-left: 15%; padding-right: 15%;
+    font-size: large;
+}
