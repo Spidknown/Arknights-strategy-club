@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>SignUp</title>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/header.css">
+<link rel="stylesheet" href="Signup.css">
+<link rel="stylesheet" href="css/Body.css">
+<script>
+    function SaveValue(){
+        var Username = document.getElementById("user").value;
+        var UID = document.getElementById("UID").value;
+        var user = {name:Username,UID:UID};
+        var userstring = JSON.stringify(user);
+        localStorage.setItem('user', userstring);
+    }
+</script>
+</head>
+<body>
+<header>
+<h1>Arknights Strategy Club</h1>
+<nav>
+<ul>
+<li><a href="Index.html">Information</a></li>
+<li><a href="Club.html">Club</a></li>
+<li><a href="#" class="current">SignUp</a></li>
+</ul>
+</nav>
+</header>
+<div id="form">
+    <form method="post" action="response.html">
+        <fieldset class="form-group">
+            <legend>User Info</legend>
+            <div class="form-group">
+                <label class="form-control-label" for="user">Username:</label>
+                <input class="form-control" required type="text" id="user" placeholder="Username">
+            </div>
+            <div class="form-group">
+                <label class="form-control-label" for="UID">UID:</label>
+                <input class="form-control" required type="text" id="UID" placeholder="UID">
+            </div>
+        </fieldset>
+        <div>
+        <input class="btn btn-primary" type="submit" id="submit" onclick="SaveValue()">
+        </div>
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/Body.css">
+        <link rel="stylesheet" href="response.css">
+        <script>
+            function displayValue()
+            {
+                var userstring = localStorage.getItem('user');
+                var user = JSON.parse(userstring);
+                document.getElementById("display").innerHTML = "Thank you. Your username is " + user.name+" and your UID is " + user.UID+ ". Within one week, we will send you an invite in-game."
+            }
+        </script>
+    </head>
+    <body onload="displayValue()">
+        <div id="display">
+        </div>
+        <div class="img">
+
+        </div>
+    </body>
+</html>

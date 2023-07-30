@@ -1,0 +1,24 @@
+legend{
+    color: azure;
+}
+label{
+    color: azure;
+}
+input.form-control{
+    width: 70%;
+    margin: auto;
+}
+label.form-control-label{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+#form{
+    background-image:url(Image/Arknightsfront.jpg);
+    background-size: cover;
+    height:79vh;
+}
+input.btn{
+    float: left;
+    margin-left: 15%;
+}

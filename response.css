@@ -1,0 +1,10 @@
+div#display{
+padding-top:5%;
+font-size: 30px;
+padding-bottom: 5%;
+}
+div.img{
+    background-image:url(Image/happyarknights.jpg);
+    background-size: cover;
+    height: 79vh;
+}

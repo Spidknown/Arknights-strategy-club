@@ -1,0 +1,30 @@
+div#firstdiv{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(Image/Arknightsfront.jpg);
+    background-size:cover;
+    height:1500px;
+    width: auto;
+}
+h2{
+    font-size: larger;
+}
+span.greyish{
+    color: rgb(164, 159, 159);
+}
+h1#trailertitle{
+    padding-top: 200px;
+}
+p{
+    padding-left: 350px; padding-right: 350px;
+    font-size: large;
+}
+p#scrolldown{
+    font-size: 30px; padding-top: 80px;
+}
+a{
+    color: aqua;
+}
+
+img{
+    width: 300px;
+    height: auto;
+}
